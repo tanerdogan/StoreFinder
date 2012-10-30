@@ -1,0 +1,94 @@
+/*
+    Document   : storefinder
+    Created on : 30.Eki.2012, 11:54:01
+    Author     : Taner DOGAN <hello@tanerdogan.com> github.com/tanerdogan | @tanerdogan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root {
+    display: block;
+}
+
+* {
+    padding:0;
+    margin:0;
+    font-family: Calibri, impact;
+}
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 1em;
+    color:#eee;
+    letter-spacing: 2px;
+}
+
+
+
+#map {
+    float:left;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.layout-north{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background: #252e35;
+
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.layout-side{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 200px;
+    height: 600px;
+    background: #252e35;
+    color:#fff;
+    font-size: .8em;
+    padding: 10px;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.layout-center{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:#fff;
+    font-size: .8em;
+}
+
+
+.header-button {
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    padding: 4px 6px;
+    border-radius: 2px;
+    font-size: .8em;
+    font-weight: bold;
+    color: white;
+    background: #111;
+}
+.header-button:hover {
+    background: royalblue;
+}
+
+.title{
+    float:left;
+    width:150px;
+    padding: 10px 0 0 10px;
+}
